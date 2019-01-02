@@ -5,7 +5,7 @@
 */
 class Solution {
 public:
-    /*
+    /*  This was the first n^2 naive solution
     vector<int> countSmaller(vector<int>& nums) {
         vector<int> retVals = vector<int>();
         for (int i : nums){
