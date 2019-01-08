@@ -16,3 +16,9 @@ How many possible unique paths are there?
 >1. Right -> Right -> Down  
 >2. Right -> Down -> Right  
 >3. Down -> Right -> Right
+  
+
+**Example 2:**
+  
+>**Input:** m = 7, n = 3  
+**>Output:** 28
