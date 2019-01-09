@@ -15,11 +15,9 @@ Note: m and n will be at most 100.
 **Example 1:**
   
 >**Input:**  
->[  
->>[0,0,0],  
->>[0,1,0],  
->>[0,0,0]  
->]  
+>[0,0,0],  
+>[0,1,0],  
+>[0,0,0]   
 >**Output:** 2  
 >**Explanation:**  
 >There is one obstacle in the middle of the 3x3 grid above.  
