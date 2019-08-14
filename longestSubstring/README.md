@@ -7,10 +7,12 @@ At first, I thought of a solution to just track where all the characters were, s
 For a string of "abdcaceeeeefcabg", my code will do the following
 
 Variable | Value
+---      | ---
 Max      | 0
 lastReset| -1
 
 Key | Value
+--- | ---
 a   | -1
 b   | -1
 c   | -1
@@ -24,10 +26,12 @@ Will be what it looks like at the start after setup. In the main loop of the fun
 When i == 0
 
 Variable | Value
+---      | ---
 Max      | 1
 lastReset| -1
 
 Key | Value
+--- | ---
 a   | 0
 b   | -1
 c   | -1
@@ -43,10 +47,12 @@ When i == 1
 Upon seeing 'b',
 
 Variable | Value
+---      | ---
 Max      | 2
 lastReset| -1
 
 Key | Value
+--- | ---
 a   | 0
 b   | 1
 c   | -1
@@ -60,10 +66,12 @@ The same thing occurs as for 'a' but the Max and Value for 'b' is different. The
 When i == 4
 
 Variable | Value
+---      | ---
 Max      | 4
 lastReset| 1
 
 Key | Value
+--- | ---
 a   | 4
 b   | 1
 c   | 3
@@ -79,10 +87,12 @@ On the next letter, the same happens for 'c'. It calculates the length of the pr
 When i == 5
 
 Variable | Value
+---      | ---
 Max      | 4
 lastReset| 4
 
 Key | Value
+--- | ---
 a   | 4
 b   | 1
 c   | 5
@@ -96,10 +106,12 @@ This runs until the very end, and the final variables would look like
 When i == 16
 
 Variable | Value
+---      | ---
 Max      | 5
 lastReset| 10
 
 Key | Value
+--- | ---
 a   | 13
 b   | 14
 c   | 12
